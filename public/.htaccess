@@ -1,2 +1,2 @@
-#RewriteEngine  on
-#RewriteRule    "^/foo\.html$"  "/bar.html" [PT]
+RewriteEngine  on
+RewriteRule    .*  index.php
