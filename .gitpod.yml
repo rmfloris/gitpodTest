@@ -3,14 +3,3 @@ tasks:
       docker-compose pull
   - command: |
       docker-compose up -d
-
-ports:
-- port: 8080
-  onOpen: ignore
-
-vscode:
-  extensions:
-    - bmewburn.vscode-intelephense-client
-    - ms-azuretools.vscode-docker
-    - sonarsource.sonarlint-vscode
-    - emmanuelbeziat.vscode-great-icons
